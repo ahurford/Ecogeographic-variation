@@ -172,14 +172,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <div class="sourceCode" id="cb30"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb30-1"><a href="geographic-variation-in-coyote-skulls.html#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(coyote, <span class="fu">aes</span>(<span class="at">x =</span> Region, <span class="at">y =</span> SL_mm)) <span class="sc">+</span> <span class="fu">geom_boxplot</span>()<span class="sc">+</span> </span>
 <span id="cb30-2"><a href="geographic-variation-in-coyote-skulls.html#cb30-2" aria-hidden="true" tabindex="-1"></a>     <span class="fu">theme_classic</span>() <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">&quot;Skull length&quot;</span>)</span></code></pre></div>
-<p><img src="marine-cons_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
+<p><img src="Ecogeographic-variation_files/figure-html/unnamed-chunk-20-1.png" width="672" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>We also create a boxplot with braincase breadth as a function of region (the boxplot shows the braincase breadth for each region).</li>
 </ol>
 <div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="geographic-variation-in-coyote-skulls.html#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(coyote, <span class="fu">aes</span>(<span class="at">x =</span> Region, <span class="at">y =</span>BB_mm)) <span class="sc">+</span> <span class="fu">geom_boxplot</span>()<span class="sc">+</span> </span>
 <span id="cb31-2"><a href="geographic-variation-in-coyote-skulls.html#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>() <span class="sc">+</span> <span class="fu">ylab</span>(<span class="st">&quot;Braincase breadth&quot;</span>)</span></code></pre></div>
 <pre><code>## Warning: Removed 1 rows containing non-finite values (stat_boxplot).</code></pre>
-<p><img src="marine-cons_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
+<p><img src="Ecogeographic-variation_files/figure-html/unnamed-chunk-21-1.png" width="672" /></p>
 <div id="analysis-of-variance-anova" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Analysis of variance (ANOVA)<a href="geographic-variation-in-coyote-skulls.html#analysis-of-variance-anova" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Analysis of Variance (ANOVA) is a statistical test to determine whether two or more population means are different. There are several versions of the ANOVA e.g., one-way ANOVA, two-way ANOVA, etc.</p>

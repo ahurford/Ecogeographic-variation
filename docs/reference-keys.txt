@@ -1,0 +1,7 @@
+getting-started-and-learning-r
+how-to-examine-and-analyze-the-data-in-r
+data-importation-and-examination
+making-graphs
+making-tables
+geographic-variation-in-coyote-skulls
+analysis-of-variance-anova

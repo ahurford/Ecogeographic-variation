@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 Making tables | Ecogeographic Variation</title>
+  <meta name="description" content="Guide to help in analyzing coyote data to study ecogeographic-variation" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 Making tables | Ecogeographic Variation" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Guide to help in analyzing coyote data to study ecogeographic-variation" />
+  <meta name="github-repo" content="jbaafi/ecogeographic-variation" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 Making tables | Ecogeographic Variation" />
+  
+  <meta name="twitter:description" content="Guide to help in analyzing coyote data to study ecogeographic-variation" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="making-graphs.html"/>
+<link rel="next" href="geographic-variation-in-coyote-skulls.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Getting started and Learning R</a></li>
+<li class="chapter" data-level="2" data-path="how-to-examine-and-analyze-the-data-in-r.html"><a href="how-to-examine-and-analyze-the-data-in-r.html"><i class="fa fa-check"></i><b>2</b> How to examine and analyze the data in R</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="how-to-examine-and-analyze-the-data-in-r.html"><a href="how-to-examine-and-analyze-the-data-in-r.html#data-importation-and-examination"><i class="fa fa-check"></i><b>2.1</b> Data importation and examination</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="making-graphs.html"><a href="making-graphs.html"><i class="fa fa-check"></i><b>3</b> Making graphs</a></li>
+<li class="chapter" data-level="4" data-path="making-tables.html"><a href="making-tables.html"><i class="fa fa-check"></i><b>4</b> Making tables</a></li>
+<li class="chapter" data-level="5" data-path="geographic-variation-in-coyote-skulls.html"><a href="geographic-variation-in-coyote-skulls.html"><i class="fa fa-check"></i><b>5</b> Geographic variation in coyote skulls</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="geographic-variation-in-coyote-skulls.html"><a href="geographic-variation-in-coyote-skulls.html#analysis-of-variance-anova"><i class="fa fa-check"></i><b>5.1</b> Analysis of variance (ANOVA)</a></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Ecogeographic Variation</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="making-tables" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Making tables<a href="making-tables.html#making-tables" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Before we make the tables we will need to install and load the necessary packages. The package needed to manipulate data and create dataframe is the <code>dplyr</code> package.</p>
+<ol style="list-style-type: decimal">
+<li>To help us compute the descriptive statistics of the data, we will need to install the <code>dplyr</code> package. The following code will help you to install this package. You may skip this step if you have already installed the package.</li>
+</ol>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="making-tables.html#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;dplyr&quot;</span>)</span></code></pre></div>
+<ol start="2" style="list-style-type: decimal">
+<li>After successful installation, we will have to load it into R using the code</li>
+</ol>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="making-tables.html#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div>
+<ol start="3" style="list-style-type: decimal">
+<li>Now we are good to manipulate the data and create data frames. The first dataframe gives a descriptive statistics (summary) of the skull length (SL_mm) by region.</li>
+</ol>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="making-tables.html#cb22-1" aria-hidden="true" tabindex="-1"></a>coyoteSL <span class="ot">&lt;-</span> coyote <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(coyote<span class="sc">$</span>SL_mm))</span>
+<span id="cb22-2"><a href="making-tables.html#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">summarize</span>(<span class="fu">group_by</span>(coyoteSL, Region), <span class="at">SL_mean =</span> <span class="fu">mean</span>(SL_mm),</span>
+<span id="cb22-3"><a href="making-tables.html#cb22-3" aria-hidden="true" tabindex="-1"></a>                  <span class="at">SL_SD =</span> <span class="fu">sd</span>(SL_mm), <span class="at">n =</span> <span class="fu">n</span>()))</span></code></pre></div>
+<pre><code>##   Region  SL_mean     SL_SD  n
+## 1     AK 185.1677 14.247055 18
+## 2    CTR 193.8521 10.399843 21
+## 3     NE 200.3899 11.728498 21
+## 4     NW 184.3920  7.916187 18
+## 5     SE 200.3848 14.499354  2
+## 6     SW 187.6740  8.427188 40</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>The overall mean and standard deviation of the skull length and the number of skulls can be found by running this code:</li>
+</ol>
+<div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="making-tables.html#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">summarize</span>(<span class="fu">group_by</span>(coyoteSL), <span class="at">SL_mean =</span> <span class="fu">mean</span>(SL_mm),</span>
+<span id="cb24-2"><a href="making-tables.html#cb24-2" aria-hidden="true" tabindex="-1"></a>                  <span class="at">SL_SD =</span> <span class="fu">sd</span>(SL_mm), <span class="at">n =</span> <span class="fu">n</span>()))</span></code></pre></div>
+<pre><code>##   SL_mean    SL_SD   n
+## 1 190.324 11.73755 120</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>We can also create a dataframe that gives a summary of the braincase breadth (BB_mm) by region. This is done by running the code:</li>
+</ol>
+<div class="sourceCode" id="cb26"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb26-1"><a href="making-tables.html#cb26-1" aria-hidden="true" tabindex="-1"></a>coyoteBB <span class="ot">&lt;-</span> coyote <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(coyote<span class="sc">$</span>BB_mm))</span>
+<span id="cb26-2"><a href="making-tables.html#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">summarize</span>(<span class="fu">group_by</span>(coyoteBB, Region), <span class="at">BB_mean =</span> <span class="fu">mean</span>(BB_mm),</span>
+<span id="cb26-3"><a href="making-tables.html#cb26-3" aria-hidden="true" tabindex="-1"></a>                  <span class="at">BB_SD =</span> <span class="fu">sd</span>(BB_mm), <span class="at">n =</span> <span class="fu">n</span>()))</span></code></pre></div>
+<pre><code>##   Region  BB_mean    BB_SD  n
+## 1     AK 56.20690 3.940768 18
+## 2    CTR 57.27160 2.352801 21
+## 3     NE 59.45019 2.398987 21
+## 4     NW 56.95291 2.635666 18
+## 5     SE 58.47589 3.135494  2
+## 6     SW 56.53313 2.252482 39</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>The overall mean and standard deviation of the braincase breadth (BB_mm) and the number of skulls measured can be found by running this code:</li>
+</ol>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb28-1"><a href="making-tables.html#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">as.data.frame</span>(<span class="fu">summarize</span>(<span class="fu">group_by</span>(coyoteBB), <span class="at">BB_mean =</span> <span class="fu">mean</span>(BB_mm),</span>
+<span id="cb28-2"><a href="making-tables.html#cb28-2" aria-hidden="true" tabindex="-1"></a>                  <span class="at">BB_SD =</span> <span class="fu">sd</span>(BB_mm), <span class="at">n =</span> <span class="fu">n</span>()))</span></code></pre></div>
+<pre><code>##    BB_mean    BB_SD   n
+## 1 57.22502 2.846884 119</code></pre>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="making-graphs.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="geographic-variation-in-coyote-skulls.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

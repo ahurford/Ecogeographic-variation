@@ -182,7 +182,7 @@ There are many ways to test for geographic differences statistically. In this la
 
 (c) NW and SW.
 
-First we will visualize the data in separate boxplots for each variable, with one box for each of the five regions. We create the boxplots using the `ggplot()` function. If you have not used `ggplot` previously, we recommend that you work through a guide on how to make plots with [ggplot](https://ahurford.github.io/quant-guide-all-courses/ggplot.html#making-scatter-plots-with-ggplot2).
+First we will visualize the data in separate boxplots for each variable, with one box for each of the five regions. We create the boxplots using the `ggplot()` function. If you have not used `ggplot` previously, we recommend that you work through a guide on how to make plots with [ggplot](https://ahurford.github.io/quant-guide-all-courses/ggplot.html#making-scatter-plots-with-ggplot2). The boxplot can also be made using the `boxplot()` function in base `R`. You can visit [here](https://ahurford.github.io/quant-guide-all-courses/graph.html#boxplot) to read about how to create boxplots in base `R`.
 
 1. The following code creates a boxplot with skull length as a function of region (in other words, the boxplot shows the skull length for each region).
 
